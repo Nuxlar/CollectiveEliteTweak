@@ -1,6 +1,6 @@
 ﻿{
 	"name": "CollectiveEliteTweak",
-	"version_number": "1.0.0",
+	"version_number": "1.0.1",
 	"website_url": "",
 	"description": "Makes the Collective Elite's shield toggle on/off periodically instead of being always on.",
 	"dependencies": [

@@ -25,6 +25,9 @@ namespace CollectiveEliteTweak
         {
             stopwatch += Time.fixedDeltaTime;
 
+            if (!affixBehavior)
+                Destroy(this);
+
             if (shieldActive && stopwatch >= uptime)
             {
                 // Deactivate shield
